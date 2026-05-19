@@ -1,0 +1,1245 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>N2 Media 銷售合作夥伴指南</title>
+    <meta
+      name="description"
+      content="N2 Media 銷售合作夥伴報價、佣金制度、折扣規則與合作注意事項。"
+    >
+    <link rel="icon" href="data:,">
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #161616;
+        --body: #3d3d3b;
+        --muted: #74706a;
+        --page: #f4f6f4;
+        --surface: #ffffff;
+        --soft: #eef2ee;
+        --line: #d9ded8;
+        --teal: #0a6c74;
+        --teal-soft: #e2f1f2;
+        --brick: #b6533a;
+        --brick-soft: #f6e7e1;
+        --olive: #667743;
+        --olive-soft: #eef3e3;
+        --gold: #b68022;
+        --gold-soft: #f6edda;
+        --blue: #365d8d;
+        --blue-soft: #e7edf6;
+        --shadow: 0 18px 54px rgba(25, 30, 28, 0.08);
+        --radius: 8px;
+        --max: 1120px;
+        --sans: -apple-system, BlinkMacSystemFont, "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+        --serif: "Songti TC", "Noto Serif TC", "PMingLiU", serif;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+        -webkit-text-size-adjust: 100%;
+        text-size-adjust: 100%;
+      }
+
+      body {
+        margin: 0;
+        background: var(--page);
+        color: var(--ink);
+        font-family: var(--sans);
+        font-size: 16px;
+        line-height: 1.72;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .shell {
+        width: min(100% - 40px, var(--max));
+        margin: 0 auto;
+      }
+
+      .topbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 18px;
+        padding: 26px 0 18px;
+      }
+
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .brand-logo {
+        display: block;
+        width: 44px;
+        height: 42px;
+        object-fit: contain;
+        object-position: center;
+      }
+
+      .brand-name {
+        display: block;
+        color: var(--ink);
+        font-size: 15px;
+        font-weight: 800;
+        line-height: 1.15;
+      }
+
+      .brand-sub {
+        display: block;
+        margin-top: 2px;
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.2;
+      }
+
+      .doc-pill {
+        display: inline-flex;
+        align-items: center;
+        min-height: 32px;
+        padding: 5px 12px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.78);
+        color: var(--body);
+        font-size: 13px;
+        font-weight: 750;
+        white-space: nowrap;
+      }
+
+      .hero {
+        overflow: hidden;
+        margin: 8px 0 18px;
+        border-radius: var(--radius);
+        background: #141716;
+        color: #fff;
+        box-shadow: var(--shadow);
+      }
+
+      .hero-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1.25fr) minmax(340px, 0.75fr);
+        gap: 42px;
+        align-items: end;
+        padding: 54px;
+      }
+
+      .kicker {
+        margin: 0 0 14px;
+        color: #9dd1d6;
+        font-size: 13px;
+        font-weight: 850;
+        letter-spacing: 0;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        max-width: 760px;
+        margin: 0;
+        font-family: var(--serif);
+        font-size: 62px;
+        font-weight: 700;
+        letter-spacing: 0;
+        line-height: 1.08;
+      }
+
+      .hero-copy {
+        max-width: 720px;
+        margin: 20px 0 0;
+        color: rgba(255, 255, 255, 0.78);
+        font-size: 19px;
+        line-height: 1.78;
+      }
+
+      .quick-box {
+        display: grid;
+        gap: 10px;
+      }
+
+      .quick-title {
+        margin: 0 0 4px;
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 13px;
+        font-weight: 850;
+      }
+
+      .quick-row {
+        display: grid;
+        grid-template-columns: 92px minmax(0, 1fr);
+        gap: 12px;
+        align-items: center;
+        padding: 13px 14px;
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        border-radius: var(--radius);
+        background: rgba(255, 255, 255, 0.06);
+      }
+
+      .quick-row strong {
+        color: #fff;
+        font-size: 21px;
+        font-weight: 850;
+        line-height: 1.12;
+        white-space: nowrap;
+      }
+
+      .quick-row span {
+        color: rgba(255, 255, 255, 0.72);
+        font-size: 14px;
+        line-height: 1.38;
+      }
+
+      .summary-band {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 1px;
+        margin-top: 18px;
+        margin-bottom: 38px;
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: var(--line);
+      }
+
+      .summary-item {
+        min-width: 0;
+        padding: 18px;
+        background: var(--surface);
+      }
+
+      .summary-item span {
+        display: block;
+        color: var(--muted);
+        font-size: 13px;
+        font-weight: 750;
+        line-height: 1.25;
+      }
+
+      .summary-item strong {
+        display: block;
+        margin-top: 8px;
+        color: var(--ink);
+        font-size: 22px;
+        font-weight: 850;
+        line-height: 1.15;
+        white-space: nowrap;
+      }
+
+      main {
+        display: grid;
+        gap: 46px;
+        padding-bottom: 72px;
+      }
+
+      .section-head {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        gap: 24px;
+        margin-bottom: 18px;
+      }
+
+      .section-label {
+        display: block;
+        margin-bottom: 8px;
+        color: var(--teal);
+        font-size: 13px;
+        font-weight: 850;
+      }
+
+      h2 {
+        margin: 0;
+        color: var(--ink);
+        font-size: 34px;
+        font-weight: 850;
+        letter-spacing: 0;
+        line-height: 1.22;
+      }
+
+      h3 {
+        margin: 0;
+        color: var(--ink);
+        font-size: 20px;
+        font-weight: 850;
+        letter-spacing: 0;
+        line-height: 1.35;
+      }
+
+      p {
+        margin: 0;
+        color: var(--body);
+      }
+
+      .section-note {
+        max-width: 520px;
+        color: var(--muted);
+        font-size: 15px;
+        line-height: 1.65;
+      }
+
+      .offer-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 16px;
+      }
+
+      .offer-card {
+        display: grid;
+        min-width: 0;
+        min-height: 250px;
+        padding: 22px;
+        border: 1px solid var(--line);
+        border-top: 6px solid var(--teal);
+        border-radius: var(--radius);
+        background: var(--surface);
+        box-shadow: 0 10px 30px rgba(25, 30, 28, 0.05);
+      }
+
+      .offer-card.social {
+        border-top-color: var(--blue);
+      }
+
+      .offer-card.extended {
+        border-top-color: var(--brick);
+      }
+
+      .offer-top {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 12px;
+      }
+
+      .offer-num {
+        display: grid;
+        width: 34px;
+        height: 34px;
+        place-items: center;
+        border-radius: 50%;
+        background: var(--soft);
+        color: var(--ink);
+        font-size: 13px;
+        font-weight: 850;
+      }
+
+      .offer-card h3 {
+        max-width: 230px;
+      }
+
+      .offer-price {
+        margin-top: 22px;
+        color: var(--ink);
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 1.15;
+      }
+
+      .offer-price small {
+        display: block;
+        margin-top: 6px;
+        color: var(--muted);
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 1.35;
+      }
+
+      .offer-card p {
+        margin-top: 18px;
+        color: var(--body);
+        font-size: 15px;
+      }
+
+      .tag-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-self: end;
+        margin-top: 18px;
+      }
+
+      .tag {
+        display: inline-flex;
+        align-items: center;
+        min-height: 28px;
+        padding: 4px 9px;
+        border-radius: 999px;
+        background: var(--soft);
+        color: var(--body);
+        font-size: 12px;
+        font-weight: 750;
+      }
+
+      .visual-panel {
+        padding: 24px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: var(--surface);
+        box-shadow: 0 10px 30px rgba(25, 30, 28, 0.05);
+      }
+
+      .ladder {
+        display: grid;
+        gap: 13px;
+      }
+
+      .ladder-row {
+        display: grid;
+        grid-template-columns: 178px minmax(0, 1fr) 190px;
+        gap: 16px;
+        align-items: center;
+      }
+
+      .ladder-name {
+        color: var(--ink);
+        font-size: 15px;
+        font-weight: 850;
+        line-height: 1.35;
+      }
+
+      .ladder-track {
+        min-width: 0;
+        height: 24px;
+        overflow: hidden;
+        border-radius: 999px;
+        background: var(--soft);
+      }
+
+      .ladder-fill {
+        height: 100%;
+        border-radius: 999px;
+        background: var(--teal);
+      }
+
+      .ladder-row:nth-child(1) .ladder-fill {
+        width: 24%;
+        background: var(--blue);
+      }
+
+      .ladder-row:nth-child(2) .ladder-fill {
+        width: 42%;
+        background: var(--teal);
+      }
+
+      .ladder-row:nth-child(3) .ladder-fill {
+        width: 58%;
+        background: var(--olive);
+      }
+
+      .ladder-row:nth-child(4) .ladder-fill {
+        width: 76%;
+        background: var(--gold);
+      }
+
+      .ladder-row:nth-child(5) .ladder-fill {
+        width: 100%;
+        background: var(--brick);
+      }
+
+      .ladder-price {
+        color: var(--ink);
+        font-size: 17px;
+        font-weight: 900;
+        line-height: 1.35;
+        white-space: nowrap;
+      }
+
+      .two-col {
+        display: grid;
+        grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+        gap: 18px;
+      }
+
+      .commission-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .commission-card {
+        padding: 22px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: var(--surface);
+      }
+
+      .commission-card strong {
+        display: block;
+        color: var(--ink);
+        font-size: 44px;
+        font-weight: 900;
+        line-height: 1;
+      }
+
+      .commission-card span {
+        display: block;
+        margin-top: 10px;
+        color: var(--body);
+        font-size: 16px;
+        font-weight: 800;
+      }
+
+      .commission-card p {
+        margin-top: 10px;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      .money-grid {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        gap: 8px;
+        margin-top: 16px;
+      }
+
+      .money-chip {
+        min-width: 0;
+        padding: 12px 10px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: var(--surface);
+        text-align: center;
+      }
+
+      .money-chip span {
+        display: block;
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 760;
+        line-height: 1.2;
+      }
+
+      .money-chip strong {
+        display: block;
+        margin-top: 6px;
+        color: var(--ink);
+        font-size: 17px;
+        font-weight: 900;
+        line-height: 1.2;
+        white-space: nowrap;
+      }
+
+      .traffic {
+        display: grid;
+        gap: 12px;
+      }
+
+      .traffic-item {
+        display: grid;
+        grid-template-columns: 108px minmax(0, 1fr);
+        gap: 14px;
+        align-items: start;
+        padding: 16px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: var(--surface);
+      }
+
+      .traffic-badge {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 34px;
+        padding: 5px 10px;
+        border-radius: 999px;
+        color: var(--ink);
+        font-size: 13px;
+        font-weight: 900;
+        white-space: nowrap;
+      }
+
+      .traffic-badge.green {
+        background: var(--olive-soft);
+        color: #425222;
+      }
+
+      .traffic-badge.yellow {
+        background: var(--gold-soft);
+        color: #6a4811;
+      }
+
+      .traffic-badge.red {
+        background: var(--brick-soft);
+        color: #7b2d1e;
+      }
+
+      .traffic-item h3 {
+        margin-bottom: 4px;
+        font-size: 18px;
+      }
+
+      .traffic-item p {
+        color: var(--body);
+        font-size: 15px;
+      }
+
+      .scope-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+      }
+
+      .list-panel {
+        padding: 22px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: var(--surface);
+      }
+
+      .list-panel h3 {
+        margin-bottom: 14px;
+      }
+
+      ul,
+      ol {
+        margin: 0;
+        padding: 0;
+      }
+
+      .simple-list {
+        display: grid;
+        gap: 9px;
+        list-style: none;
+      }
+
+      .simple-list li {
+        position: relative;
+        padding-left: 22px;
+        color: var(--body);
+        font-size: 15px;
+      }
+
+      .simple-list li::before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: var(--teal);
+        content: "✓";
+        font-weight: 900;
+      }
+
+      .simple-list.danger li::before {
+        color: var(--brick);
+        content: "×";
+      }
+
+      .process {
+        display: grid;
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+        gap: 10px;
+        list-style: none;
+      }
+
+      .process li {
+        position: relative;
+        min-height: 132px;
+        padding: 16px 13px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: var(--surface);
+        color: var(--body);
+        font-size: 14px;
+        line-height: 1.55;
+      }
+
+      .process strong {
+        display: block;
+        width: 30px;
+        height: 30px;
+        margin-bottom: 10px;
+        border-radius: 50%;
+        background: var(--ink);
+        color: #fff;
+        font-size: 13px;
+        line-height: 30px;
+        text-align: center;
+      }
+
+      .callout {
+        padding: 24px;
+        border: 1px solid var(--line);
+        border-left: 6px solid var(--teal);
+        border-radius: var(--radius);
+        background: var(--teal-soft);
+      }
+
+      .callout strong {
+        display: block;
+        margin-bottom: 8px;
+        color: #153e43;
+        font-size: 18px;
+      }
+
+      .callout p {
+        color: #173f45;
+      }
+
+      .fineprint {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .fineprint-card {
+        padding: 18px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: var(--surface);
+      }
+
+      .fineprint-card h3 {
+        margin-bottom: 8px;
+        font-size: 18px;
+      }
+
+      .fineprint-card p {
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      footer {
+        padding: 32px 0 42px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      @media (max-width: 980px) {
+        .hero-grid {
+          grid-template-columns: 1fr;
+          padding: 42px;
+        }
+
+        h1 {
+          font-size: 48px;
+        }
+
+        h2 {
+          font-size: 30px;
+        }
+
+        .summary-band,
+        .offer-grid,
+        .two-col,
+        .scope-grid,
+        .fineprint {
+          grid-template-columns: 1fr;
+        }
+
+        .process {
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+
+        .money-grid {
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+      }
+
+      @media (max-width: 720px) {
+        .shell {
+          width: min(100% - 28px, var(--max));
+        }
+
+        .topbar {
+          align-items: flex-start;
+          flex-direction: column;
+        }
+
+        .doc-pill {
+          white-space: normal;
+        }
+
+        .hero-grid {
+          gap: 28px;
+          padding: 30px 22px;
+        }
+
+        h1 {
+          font-size: 36px;
+        }
+
+        .hero-copy {
+          font-size: 16px;
+        }
+
+        .quick-row {
+          grid-template-columns: 84px minmax(0, 1fr);
+        }
+
+        .quick-row strong {
+          font-size: 18px;
+        }
+
+        .summary-band {
+          margin-bottom: 32px;
+        }
+
+        main {
+          gap: 36px;
+          padding-bottom: 52px;
+        }
+
+        .section-head {
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 10px;
+        }
+
+        h2 {
+          font-size: 26px;
+        }
+
+        .offer-card {
+          min-height: 0;
+        }
+
+        .offer-price {
+          font-size: 24px;
+        }
+
+        .visual-panel {
+          padding: 18px;
+        }
+
+        .ladder-row {
+          grid-template-columns: 1fr;
+          gap: 8px;
+          padding-bottom: 14px;
+          border-bottom: 1px solid var(--line);
+        }
+
+        .ladder-row:last-child {
+          border-bottom: 0;
+          padding-bottom: 0;
+        }
+
+        .ladder-price {
+          font-size: 16px;
+        }
+
+        .commission-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .money-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .traffic-item {
+          grid-template-columns: 1fr;
+        }
+
+        .process {
+          grid-template-columns: 1fr;
+        }
+
+        .process li {
+          min-height: 0;
+        }
+      }
+
+      @media print {
+        body {
+          background: #fff;
+        }
+
+        .hero,
+        .summary-item,
+        .offer-card,
+        .visual-panel,
+        .commission-card,
+        .traffic-item,
+        .list-panel,
+        .fineprint-card {
+          box-shadow: none;
+        }
+
+        .hero {
+          color: #111;
+          background: #fff;
+          border: 1px solid #ddd;
+        }
+
+        .hero-copy,
+        .quick-title,
+        .quick-row span {
+          color: #333;
+        }
+
+        .quick-row {
+          border-color: #ddd;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="shell">
+      <div class="topbar">
+        <a class="brand" href="#page-title" aria-label="回到頁首">
+          <img class="brand-logo" src="assets/n2-logo.png" alt="N2 Media">
+          <span>
+            <span class="brand-name">N2 Media</span>
+            <span class="brand-sub">合作夥伴指南</span>
+          </span>
+        </a>
+        <span class="doc-pill">合作夥伴內部文件 · 請勿直接轉傳客戶</span>
+      </div>
+
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-grid">
+          <div>
+            <p class="kicker">銷售合作指南</p>
+            <h1 id="page-title">銷售合作夥伴指南</h1>
+            <p class="hero-copy">
+              這份文件只回答合作夥伴最需要知道的事：可以賣什麼、怎麼報價、佣金怎麼算、哪些事情不能自己承諾。
+            </p>
+          </div>
+
+          <div class="quick-box" aria-label="最重要規則">
+            <p class="quick-title">先記這四件事</p>
+            <div class="quick-row">
+              <strong>8 萬</strong>
+              <span>60 秒品牌廣告的標準報價錨點</span>
+            </div>
+            <div class="quick-row">
+              <strong>6 萬</strong>
+              <span>品牌廣告最低起案價，低於此金額需確認</span>
+            </div>
+            <div class="quick-row">
+              <strong>25%</strong>
+              <span>主動提案、跟進並成交的銷售佣金</span>
+            </div>
+            <div class="quick-row">
+              <strong>10%</strong>
+              <span>只介紹客戶、由 N2 Media 成交的引薦佣金</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <div class="shell summary-band" aria-label="快速摘要">
+      <div class="summary-item">
+        <span>主力銷售</span>
+        <strong>60 秒品牌廣告</strong>
+      </div>
+      <div class="summary-item">
+        <span>標準報價</span>
+        <strong>NT$80,000</strong>
+      </div>
+      <div class="summary-item">
+        <span>對外價格帶</span>
+        <strong>NT$60,000-100,000+</strong>
+      </div>
+      <div class="summary-item">
+        <span>90 秒以上</span>
+        <strong>一律客製報價</strong>
+      </div>
+    </div>
+
+    <main class="shell">
+      <section aria-labelledby="offers-title">
+        <div class="section-head">
+          <div>
+            <span class="section-label">01 · 銷售產品</span>
+            <h2 id="offers-title">三種產品線，分開賣</h2>
+          </div>
+          <p class="section-note">
+            不要把使用者生成內容風格短影音、60 秒品牌廣告、2 分鐘品牌故事混在一起談。它們解決的是不同問題，價格也應該不同。
+          </p>
+        </div>
+
+        <div class="offer-grid">
+          <article class="offer-card social">
+            <div class="offer-top">
+              <h3>社群短影音套裝</h3>
+              <span class="offer-num">01</span>
+            </div>
+            <div class="offer-price">
+              NT$15,000-30,000 / 支
+              <small>15-30 秒短影音，建議以套裝銷售</small>
+            </div>
+            <p>適合社群短影音平台、產品短片、使用者生成內容風格、短影音廣告測試。</p>
+            <div class="tag-row">
+              <span class="tag">短影音</span>
+              <span class="tag">測試素材</span>
+              <span class="tag">不主打最低價</span>
+            </div>
+          </article>
+
+          <article class="offer-card">
+            <div class="offer-top">
+              <h3>60 秒品牌廣告</h3>
+              <span class="offer-num">02</span>
+            </div>
+            <div class="offer-price">
+              NT$60,000-100,000+
+              <small>標準報價錨點：NT$80,000</small>
+            </div>
+            <p>這是最建議銷售的核心產品，適合品牌介紹、產品上市、官網影片、業務簡報與活動主視覺。</p>
+            <div class="tag-row">
+              <span class="tag">主力產品</span>
+              <span class="tag">電影感品牌廣告</span>
+              <span class="tag">優先賣 8 萬以上</span>
+            </div>
+          </article>
+
+          <article class="offer-card extended">
+            <div class="offer-top">
+              <h3>延伸品牌故事</h3>
+              <span class="offer-num">03</span>
+            </div>
+            <div class="offer-price">
+              NT$100,000-320,000+
+              <small>90 秒到 3 分鐘，一律先確認範圍</small>
+            </div>
+            <p>適合需要更多故事鋪陳、旅宿觀光、企業提案、品牌理念或較完整產品脈絡的專案。</p>
+            <div class="tag-row">
+              <span class="tag">客製報價</span>
+              <span class="tag">故事結構</span>
+              <span class="tag">高修改風險</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section aria-labelledby="pricing-title">
+        <div class="section-head">
+          <div>
+            <span class="section-label">02 · 報價階梯</span>
+            <h2 id="pricing-title">報價階梯</h2>
+          </div>
+          <p class="section-note">
+            長度只是參考，真正影響價格的是腳本複雜度、場景段落、AI 生成難度、修改輪數與交付時間。
+          </p>
+        </div>
+
+        <div class="visual-panel">
+          <div class="ladder" aria-label="報價階梯圖">
+            <div class="ladder-row">
+              <div class="ladder-name">15-30 秒短影音</div>
+              <div class="ladder-track"><div class="ladder-fill"></div></div>
+              <div class="ladder-price">NT$15,000-30,000 / 支</div>
+            </div>
+            <div class="ladder-row">
+              <div class="ladder-name">60 秒品牌廣告</div>
+              <div class="ladder-track"><div class="ladder-fill"></div></div>
+              <div class="ladder-price">NT$60,000-100,000+</div>
+            </div>
+            <div class="ladder-row">
+              <div class="ladder-name">90 秒品牌故事</div>
+              <div class="ladder-track"><div class="ladder-fill"></div></div>
+              <div class="ladder-price">NT$100,000-150,000</div>
+            </div>
+            <div class="ladder-row">
+              <div class="ladder-name">2 分鐘延伸版本</div>
+              <div class="ladder-track"><div class="ladder-fill"></div></div>
+              <div class="ladder-price">NT$140,000-220,000</div>
+            </div>
+            <div class="ladder-row">
+              <div class="ladder-name">3 分鐘活動形象影片</div>
+              <div class="ladder-track"><div class="ladder-fill"></div></div>
+              <div class="ladder-price">NT$200,000-320,000+</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="commission-title">
+        <div class="section-head">
+          <div>
+            <span class="section-label">03 · 佣金制度</span>
+            <h2 id="commission-title">佣金怎麼算</h2>
+          </div>
+          <p class="section-note">
+            佣金以實際收到的專案款項計算，不含稅金、廣告投放費、場地費、演員費、授權費或其他第三方代墊成本。
+          </p>
+        </div>
+
+        <div class="two-col">
+          <div class="commission-grid">
+            <article class="commission-card">
+              <strong>10%</strong>
+              <span>單純引薦</span>
+              <p>介紹客戶給 N2 Media，由 N2 Media 負責提案、溝通與成交。</p>
+            </article>
+            <article class="commission-card">
+              <strong>25%</strong>
+              <span>銷售成交</span>
+              <p>合作夥伴主動提案、跟進、協助溝通並促成成交。</p>
+            </article>
+          </div>
+
+          <div class="visual-panel">
+            <h3>25% 銷售成交佣金範例</h3>
+            <div class="money-grid" aria-label="佣金範例">
+              <div class="money-chip">
+                <span>成交 6 萬</span>
+                <strong>佣金 1.5 萬</strong>
+              </div>
+              <div class="money-chip">
+                <span>成交 8 萬</span>
+                <strong>佣金 2 萬</strong>
+              </div>
+              <div class="money-chip">
+                <span>成交 10 萬</span>
+                <strong>佣金 2.5 萬</strong>
+              </div>
+              <div class="money-chip">
+                <span>成交 15 萬</span>
+                <strong>佣金 3.75 萬</strong>
+              </div>
+              <div class="money-chip">
+                <span>成交 20 萬</span>
+                <strong>佣金 5 萬</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="discount-title" id="discount">
+        <div class="section-head">
+          <div>
+            <span class="section-label">04 · 折扣規則</span>
+            <h2 id="discount-title">折扣規則，用紅綠燈記</h2>
+          </div>
+          <p class="section-note">
+            折扣可以協助成交，但不能讓客戶覺得價格可以被隨意壓低。越接近底線，越需要先確認範圍。
+          </p>
+        </div>
+
+        <div class="traffic">
+          <article class="traffic-item">
+            <span class="traffic-badge green">可以自行談</span>
+            <div>
+              <h3>8 萬以上，優先銷售價值</h3>
+              <p>60 秒品牌廣告以 NT$80,000 作為標準報價基準。客戶預算足夠時，請優先賣 NT$80,000 以上。</p>
+            </div>
+          </article>
+          <article class="traffic-item">
+            <span class="traffic-badge yellow">先確認範圍</span>
+            <div>
+              <h3>低於 7.2 萬，請先確認</h3>
+              <p>合作夥伴可提供最高 10% 的成交折扣；若 60 秒品牌廣告低於 NT$72,000，請先與 N2 Media 確認專案範圍。</p>
+            </div>
+          </article>
+          <article class="traffic-item">
+            <span class="traffic-badge red">不能自行承諾</span>
+            <div>
+              <h3>低於 6 萬、90 秒以上、白牌合作</h3>
+              <p>任何低於 NT$60,000 的品牌廣告、90 秒以上影片、白牌或代售合作，都必須先取得 N2 Media 確認。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section aria-labelledby="scope-title">
+        <div class="section-head">
+          <div>
+            <span class="section-label">05 · 交付範圍</span>
+            <h2 id="scope-title">標準包含與不可加送</h2>
+          </div>
+          <p class="section-note">
+            最容易出問題的地方不是價格，而是合作夥伴在成交前多承諾了修改、版本、急件或交付範圍。
+          </p>
+        </div>
+
+        <div class="scope-grid">
+          <article class="list-panel">
+            <h3>60 秒品牌廣告通常包含</h3>
+            <ul class="simple-list">
+              <li>前期需求討論</li>
+              <li>腳本方向與影片架構</li>
+              <li>視覺風格設定</li>
+              <li>AI 影像生成與影像整理</li>
+              <li>影片剪輯、音樂、基礎聲音處理</li>
+              <li>字幕或簡單文字設計</li>
+              <li>2 輪標準修改</li>
+            </ul>
+          </article>
+
+          <article class="list-panel">
+            <h3>未確認前請勿承諾</h3>
+            <ul class="simple-list danger">
+              <li>第 3 輪以上修改</li>
+              <li>多支影片版本或不同長度裁切</li>
+              <li>急件交付或額外腳本重寫</li>
+              <li>演員、創作者、配音、場地、授權素材</li>
+              <li>廣告投放、媒體採買或社群代操</li>
+              <li>原始檔、工程檔、提示詞或未整理素材</li>
+              <li>白牌交付或以合作夥伴名義對外銷售</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section aria-labelledby="process-title">
+        <div class="section-head">
+          <div>
+            <span class="section-label">06 · 銷售流程</span>
+            <h2 id="process-title">標準銷售流程</h2>
+          </div>
+          <p class="section-note">
+            合作夥伴不用自己把所有細節談完。越早確認需求、預算與範圍，越能避免後面重談。
+          </p>
+        </div>
+
+        <ol class="process">
+          <li><strong>1</strong>提供客戶背景、產業、需求與預算範圍。</li>
+          <li><strong>2</strong>N2 Media 協助確認是否適合承接。</li>
+          <li><strong>3</strong>確認報價與專案範圍後再對外提案。</li>
+          <li><strong>4</strong>客戶確認報價並支付訂金。</li>
+          <li><strong>5</strong>N2 Media 開始製作。</li>
+          <li><strong>6</strong>款項入帳後，依實際收款金額計算佣金。</li>
+        </ol>
+      </section>
+
+      <section aria-labelledby="positioning-title">
+        <div class="section-head">
+          <div>
+            <span class="section-label">07 · 對外定位</span>
+            <h2 id="positioning-title">對外怎麼說</h2>
+          </div>
+        </div>
+
+        <div class="callout">
+          <strong>建議說法</strong>
+          <p>
+            這不是一般低價 AI 影片，而是用 AI 原生流程製作的高質感品牌廣告。重點不只是生成畫面，而是腳本、視覺方向、剪輯節奏與品牌敘事。
+          </p>
+        </div>
+      </section>
+
+      <section aria-label="補充規則">
+        <div class="fineprint">
+          <article class="fineprint-card">
+            <h3>短影音不是低價入口</h3>
+            <p>使用者生成內容與短影音市場很競爭，N2 Media 只承接有企劃、腳本、品牌語氣或視覺要求的內容。</p>
+          </article>
+          <article class="fineprint-card">
+            <h3>白牌合作需事前確認</h3>
+            <p>合作夥伴若要用自己的品牌名義銷售，需先確認最低製作費、交付範圍、客戶溝通方式與責任分工。</p>
+          </article>
+          <article class="fineprint-card">
+            <h3>客戶歸屬 90 天</h3>
+            <p>合作夥伴首次介紹某位客戶後，若 90 天內成交，該專案原則上歸屬於該合作夥伴。</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="shell">
+      N2 Media 合作夥伴指南 · 內部文件 · 2026.05
+    </footer>
+  </body>
+</html>
